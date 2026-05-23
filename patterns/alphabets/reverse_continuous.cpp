@@ -7,8 +7,8 @@ int main(){
     int i,j, count = 0;
     char ch = 'A';
 
-    for(i = 1; i<=n ; i++){     // outer loop to print the row
-        for(j = 1; j<=i; j++){   // inner loop to print the row element 
+    for(i = 1; i<=n ; i++){
+        for(j = 1; j<=n-i; j++){   
                 ch = 'A' + count;
                 cout << ch;
                 count++;
