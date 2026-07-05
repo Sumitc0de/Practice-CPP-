@@ -1,2 +1,5 @@
-Strings
-Recursion
+Complexity 
+Patterns
+STL 
+Math 
+JavaScript (INTERVIEW)     
