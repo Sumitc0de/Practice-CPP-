@@ -6,7 +6,7 @@ int main()
 
     int n = 5;
     int i, j;
-    char ch = 'A';
+    // char ch = 'A';
 
     for (int i = 1; i <= n; i++)
     {

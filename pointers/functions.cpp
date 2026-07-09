@@ -5,7 +5,7 @@ using namespace std;
 void change(int x){
     x = 20;
 }
-
+// pass by referrence 
 void changeByPtr(int *ptr){
     *ptr = 30;
 }
