@@ -8,9 +8,9 @@ void print1ToN(int n)
     {
         return;
     }
-
     print1ToN(n - 1);
     cout << n << " ";
+
 }
 
 //Print before recursion
@@ -22,11 +22,11 @@ void print(int i, int n){
 
 
     // work
+    print(i+1, n);
     cout << i << " ";
 
 
     // recursive call
-    print(i+1, n);
 }
 
 
